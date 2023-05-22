@@ -43,7 +43,7 @@ int main()
     for (int i = 0; i < 26; i++)
     {
         if (cnt[i] >= 5)
-            str += i + 'a';
+            str += (i + 'a');
     }
     if (str.size())
         cout << str << '\n';
