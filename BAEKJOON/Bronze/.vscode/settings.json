@@ -23,6 +23,7 @@
         "ranges": "cpp",
         "stacktrace": "cpp",
         "iostream": "cpp",
-        "ios": "cpp"
+        "ios": "cpp",
+        "iosfwd": "cpp"
     }
 }
