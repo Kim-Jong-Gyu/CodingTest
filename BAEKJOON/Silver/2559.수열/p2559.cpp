@@ -18,8 +18,13 @@ int main(){
         }
     }
     /* max 함수 이용 방법
+    for(int i =1; i <=num; i++){
+        cin >> arr[i];
+        ret[i] = ret[i - 1] + arr[i];
+    }
+    
     for(int i = unit; i < num; i++){
-        max = max(max, psum[i] - psum[i - unit]);
+        max = max(max, ret[i] - ret[i - unit]);
     }
     */
     for(int i = unit; i <= num; i++){
