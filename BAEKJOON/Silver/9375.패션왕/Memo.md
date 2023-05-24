@@ -3,8 +3,6 @@ https://www.acmicpc.net/problem/9375
 
 ## 정리
 1. 경우의 수는 곱하기 
-- 
-
 
 ## 접근 방식
 1. 종류만 따진다
