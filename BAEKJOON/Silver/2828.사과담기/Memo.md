@@ -9,4 +9,4 @@ https://www.acmicpc.net/problem/2828
     - vecotr 내 원소 포함 하는지 않하는지 check
         - 값이 없을시 vecotr내 원소값 +1
         - 없을시 vector 내 원소값 -1
-    - 값 변경이 일어난만큼 ret에 더해준다. 
+    - 값 변경이 일어난만큼 ret에 더해준다.
