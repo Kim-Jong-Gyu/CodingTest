@@ -4,7 +4,7 @@ typedef unsigned long long ll;
 
 int t;
 ll num;
-
+vector<int> result;
 int main()
 {
     cin >> t;
@@ -21,6 +21,9 @@ int main()
         {
             ret5 += num / j;
         }
-        cout << min(ret2, ret5) << '\n';
+        result.push_back(min(ret2, ret5));
+    }
+    for(int a : result){
+        cout << a << '\n';
     }
 }
